@@ -7,6 +7,7 @@ import {
   PolarRadiusAxis,
   Radar,
   Legend,
+  ResponsiveContainer,
 } from "recharts";
 
 export const Chart = () => {
@@ -43,16 +44,9 @@ export const Chart = () => {
     },
   ];
   return (
-    <div
-      style={{
-        width: "60%",
-        textAlign: "left",
-        marginLeft: "20%",
-        marginTop: "10%",
-      }}
-    >
-      <Card>
-        <RadarChart outerRadius={90} width={730} height={400} data={data}>
+    <Card style={{ width: "80%", height: "50%", margin: "10%" }}>
+      <ResponsiveContainer width="100%" height={400}>
+        <RadarChart outerRadius={90} data={data}>
           <PolarGrid />
           <PolarAngleAxis dataKey="subject" />
           <PolarRadiusAxis angle={30} domain={[0, 100]} />
@@ -67,7 +61,7 @@ export const Chart = () => {
           />
           <Legend />
         </RadarChart>
-      </Card>
-    </div>
+      </ResponsiveContainer>
+    </Card>
   );
 };

@@ -6,143 +6,141 @@ import { useNavigate } from "react-router-dom";
 export const Specialities = () => {
   const navigate = useNavigate();
   return (
-    <div style={{ margin: "10px" }}>
-      <div style={{ justifyContent: "space-evenly", display: "flex" }}>
-        <Card
+    <div style={{ display: "flex", justifyContent: "space-evenly" }}>
+      <Card
+        style={{
+          width: "300px",
+          height: "300px",
+          marginTop: "20px",
+          padding: "20px",
+        }}
+      >
+        <Card.Title
           style={{
-            width: "300px",
-            height: "300px",
-            marginTop: "20px",
-            padding: "20px",
+            color: "blue",
+            fontSize: "20px",
+            fontWeight: "bolder",
+            padding: "5px",
           }}
         >
-          <Card.Title
+          Stripe
+        </Card.Title>
+        <Card.Body>
+          <div style={{ textAlign: "center" }}>
+            <img src="/stripe.jpg" className="img-fluid" width={200}></img>
+          </div>
+
+          <p
             style={{
-              color: "blue",
-              fontSize: "20px",
-              fontWeight: "bolder",
-              padding: "5px",
+              textAlign: "center",
+              fontWeight: "bold",
+              marginTop: "30px",
+              marginBottom: "2px",
             }}
-          >
-            Stripe
-          </Card.Title>
-          <Card.Body>
-            <div style={{ textAlign: "center" }}>
-              <img src="/stripe.jpg" width="200"></img>
-            </div>
+          ></p>
 
-            <p
-              style={{
-                textAlign: "center",
-                fontWeight: "bold",
-                marginTop: "30px",
-                marginBottom: "2px",
-              }}
-            ></p>
-
-            <div style={{ textAlign: "center" }}>
-              <Button
-                className="bg-primary"
-                size="sm"
-                style={{ borderRadius: "25px", fontWeight: "bold" }}
-              >
-                Try
-              </Button>
-            </div>
-          </Card.Body>
-        </Card>
-        <Card
+          <div style={{ textAlign: "center" }}>
+            <Button
+              className="bg-primary"
+              size="sm"
+              style={{ borderRadius: "25px", fontWeight: "bold" }}
+            >
+              Try
+            </Button>
+          </div>
+        </Card.Body>
+      </Card>
+      <Card
+        style={{
+          width: "300px",
+          height: "300px",
+          marginTop: "20px",
+          padding: "20px",
+        }}
+      >
+        <Card.Title
           style={{
-            width: "300px",
-            height: "300px",
-            marginTop: "20px",
-            padding: "20px",
+            color: "blue",
+            fontSize: "20px",
+            fontWeight: "bolder",
+            padding: "5px",
           }}
         >
-          <Card.Title
+          Chat GPT
+        </Card.Title>
+        <Card.Body>
+          <div style={{ textAlign: "center" }}>
+            <img src="/chat-gpt.jpg" className="img-fluid" width={150}></img>
+          </div>
+          <p
             style={{
-              color: "blue",
-              fontSize: "20px",
-              fontWeight: "bolder",
-              padding: "5px",
+              textAlign: "center",
+              fontWeight: "bold",
+              marginTop: "30px",
+              marginBottom: "2px",
             }}
-          >
-            Chat GPT
-          </Card.Title>
-          <Card.Body>
-            <div style={{ textAlign: "center" }}>
-              <img src="/chat-gpt.jpg" width="150"></img>
-            </div>
-            <p
-              style={{
-                textAlign: "center",
-                fontWeight: "bold",
-                marginTop: "30px",
-                marginBottom: "2px",
+          ></p>
+
+          <div style={{ textAlign: "center" }}>
+            <Button
+              className="bg-primary"
+              size="sm"
+              style={{ borderRadius: "25px", fontWeight: "bold" }}
+              onClick={() => {
+                navigate("/gpt");
               }}
-            ></p>
+            >
+              Try
+            </Button>
+          </div>
+        </Card.Body>
+      </Card>
 
-            <div style={{ textAlign: "center" }}>
-              <Button
-                className="bg-primary"
-                size="sm"
-                style={{ borderRadius: "25px", fontWeight: "bold" }}
-                onClick={() => {
-                  navigate("/gpt");
-                }}
-              >
-                Try
-              </Button>
-            </div>
-          </Card.Body>
-        </Card>
-
-        <Card
+      <Card
+        style={{
+          width: "300px",
+          height: "300px",
+          marginTop: "20px",
+          padding: "20px",
+        }}
+      >
+        <Card.Title
           style={{
-            width: "300px",
-            height: "300px",
-            marginTop: "20px",
-            padding: "20px",
+            color: "blue",
+            fontSize: "20px",
+            fontWeight: "bolder",
+            padding: "5px",
           }}
         >
-          <Card.Title
+          Chart
+        </Card.Title>
+        <Card.Body>
+          <div style={{ textAlign: "center" }}>
+            <img src="/chart.jpg" className="img-fluid" width={150}></img>
+          </div>
+          <p
             style={{
-              color: "blue",
-              fontSize: "20px",
-              fontWeight: "bolder",
-              padding: "5px",
+              textAlign: "center",
+              fontWeight: "bold",
+              marginTop: "30px",
+              marginBottom: "2px",
             }}
-          >
-            Chart
-          </Card.Title>
-          <Card.Body>
-            <div style={{ textAlign: "center" }}>
-              <img src="/chart.jpg" width="150"></img>
-            </div>
-            <p
-              style={{
-                textAlign: "center",
-                fontWeight: "bold",
-                marginTop: "30px",
-                marginBottom: "2px",
-              }}
-            ></p>
+          ></p>
 
-            <div style={{ textAlign: "center" }}>
-              <Button
-                className="bg-primary"
-                size="sm"
-                style={{ borderRadius: "25px", fontWeight: "bold" }}
-                onClick={() => {
-                  navigate("/chart");
-                }}
-              >
-                Try
-              </Button>
-            </div>
-          </Card.Body>
-        </Card>
-      </div>
+          <div style={{ textAlign: "center" }}>
+            <Button
+              className="bg-primary"
+              size="sm"
+              style={{ borderRadius: "25px", fontWeight: "bold" }}
+              onClick={() => {
+                navigate("/chart");
+              }}
+            >
+              Try
+            </Button>
+          </div>
+        </Card.Body>
+      </Card>
     </div>
   );
 };
