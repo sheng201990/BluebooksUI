@@ -1,0 +1,10 @@
+.text {
+  font-size: 14px;
+  color: black;
+  font-family: 'normal';
+  font-weight: 500;
+  &:hover {
+    cursor: pointer;
+    color: blue;
+  }
+}

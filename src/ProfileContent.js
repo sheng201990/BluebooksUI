@@ -1,0 +1,109 @@
+import React, { useState } from "react";
+import Button from "react-bootstrap/Button";
+import { MySelfModal } from "./MySelfModal";
+
+export const ProfileContent = () => {
+  const [showModal, setShowModal] = useState(false);
+  const onClose = () => {
+    setShowModal(false);
+  };
+  return (
+    <div
+      style={{
+        color: "black",
+        fontSize: "20px",
+        fontFamily: "normal",
+        fontWeight: "bold",
+        textAlign: "left",
+      }}
+    >
+      <div style={{ marginTop: "20px" }}>
+        <div
+          style={{
+            fontSize: "40px",
+            fontFamily: "normal",
+            color: "black",
+          }}
+        >
+          Hi,
+        </div>
+        <div style={{ fontSize: "50px", fontFamily: "normal", color: "black" }}>
+          <span>I am</span>
+          <span style={{ color: "orange" }}> Aaron</span>
+        </div>
+        <div style={{ fontSize: "50px", fontFamily: "normal", color: "black" }}>
+          <span>Front End</span>
+          <span style={{ color: "blue" }}> Developer</span>
+        </div>
+      </div>
+      <div
+        style={{
+          fontSize: "14px",
+          marginTop: "40px",
+          fontFamily: "unset",
+        }}
+      >
+        Reliable, energetic, and resourceful front-end developer with more than
+        three years of experience resolving complex client problems with coding
+        solutions.
+      </div>
+      <div style={{ marginTop: "40px", marginBottom: "20px" }}>
+        <Button
+          className="bg-primary"
+          style={{
+            fontFamily: "normal",
+            fontWeight: "bold",
+            borderRadius: "20px",
+          }}
+          onClick={() => {
+            setShowModal(true);
+          }}
+        >
+          About Me
+        </Button>
+
+        <div style={{ marginTop: "10px" }}>
+          <img
+            src="/facebook.png"
+            width="20"
+            height="20"
+            style={{ cursor: "pointer" }}
+            onClick={() => {
+              window.open("https://www.facebook.com/rainbowback/");
+            }}
+          ></img>
+          <img
+            src="/linkedin.png"
+            width="20"
+            height="20"
+            style={{ marginLeft: "10px", cursor: "pointer" }}
+            onClick={() => {
+              window.open("https://www.linkedin.com/in/aaron-luan-6b8448196/");
+            }}
+          ></img>
+          <img
+            src="/github.png"
+            width="20"
+            height="20"
+            style={{ marginLeft: "10px", cursor: "pointer" }}
+            onClick={() => {
+              window.open("https://github.com/sheng201990");
+            }}
+          ></img>
+          <img
+            src="/research.png"
+            width="20"
+            height="20"
+            style={{ marginLeft: "10px", cursor: "pointer" }}
+            onClick={() => {
+              window.open(
+                "https://rc.library.uta.edu/uta-ir/handle/10106/29631?show=full"
+              );
+            }}
+          ></img>
+        </div>
+      </div>
+      <MySelfModal modalShow={showModal} onClose={onClose} />
+    </div>
+  );
+};
