@@ -107,7 +107,7 @@ export const Contact = () => {
                       style={{
                         height: "40px",
                         padding: "10px",
-                        width: "150%",
+                        width: "100%",
                       }}
                     />
                   </span>
