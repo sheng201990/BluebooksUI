@@ -64,7 +64,7 @@ export const ProfileContent = () => {
 
         <div style={{ marginTop: "10px" }}>
           <img
-            src="/facebook.png"
+            src="/facebook.jpg"
             width="20"
             height="20"
             style={{ cursor: "pointer" }}
@@ -73,7 +73,7 @@ export const ProfileContent = () => {
             }}
           ></img>
           <img
-            src="/linkedin.png"
+            src="/linkedin.jpg"
             width="20"
             height="20"
             style={{ marginLeft: "10px", cursor: "pointer" }}
@@ -82,7 +82,7 @@ export const ProfileContent = () => {
             }}
           ></img>
           <img
-            src="/github.png"
+            src="/github.jpg"
             width="20"
             height="20"
             style={{ marginLeft: "10px", cursor: "pointer" }}
@@ -91,7 +91,7 @@ export const ProfileContent = () => {
             }}
           ></img>
           <img
-            src="/research.png"
+            src="/research.jpg"
             width="20"
             height="20"
             style={{ marginLeft: "10px", cursor: "pointer" }}

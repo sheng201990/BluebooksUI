@@ -12,7 +12,7 @@ export const ProfileInfo = () => {
         ></Card.Title>
         <Card.Body>
           <div style={{ textAlign: "center" }}>
-            {/* <img src="/photo.png" alt="My Image" width="100" height="100"></img> */}
+            {/* <img src="/photo.jpg" alt="My Image" width="100" height="100"></img> */}
           </div>
 
           <p style={{ fontWeight: "bold", textAlign: "center" }}>Photo</p>

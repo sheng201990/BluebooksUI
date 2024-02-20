@@ -28,7 +28,7 @@ export const Specialities = () => {
           </Card.Title>
           <Card.Body>
             <div style={{ textAlign: "center" }}>
-              <img src="/stripe.png" width="200"></img>
+              <img src="/stripe.jpg" width="200"></img>
             </div>
 
             <p
@@ -71,7 +71,7 @@ export const Specialities = () => {
           </Card.Title>
           <Card.Body>
             <div style={{ textAlign: "center" }}>
-              <img src="/chat-gpt.png" width="150"></img>
+              <img src="/chat-gpt.jpg" width="150"></img>
             </div>
             <p
               style={{
@@ -117,7 +117,7 @@ export const Specialities = () => {
           </Card.Title>
           <Card.Body>
             <div style={{ textAlign: "center" }}>
-              <img src="/chart.png" width="150"></img>
+              <img src="/chart.jpg" width="150"></img>
             </div>
             <p
               style={{

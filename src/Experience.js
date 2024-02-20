@@ -11,7 +11,7 @@ export const Experience = () => {
               {" "}
               2021
               <img
-                src="/tooltip.png"
+                src="/tooltip.jpg"
                 width="20"
                 height="20"
                 style={{ margin: "1px", cursor: "pointer" }}
@@ -29,7 +29,7 @@ export const Experience = () => {
               {" "}
               2022
               <img
-                src="/tooltip.png"
+                src="/tooltip.jpg"
                 width="20"
                 height="20"
                 style={{ margin: "1px", cursor: "pointer" }}
@@ -47,7 +47,7 @@ export const Experience = () => {
               {" "}
               2023
               <img
-                src="/tooltip.png"
+                src="/tooltip.jpg"
                 width="20"
                 height="20"
                 style={{ margin: "1px", cursor: "pointer" }}
@@ -66,7 +66,7 @@ export const Experience = () => {
               {" "}
               2024
               <img
-                src="/tooltip.png"
+                src="/tooltip.jpg"
                 width="20"
                 height="20"
                 style={{ margin: "1px", cursor: "pointer" }}
@@ -84,7 +84,7 @@ export const Experience = () => {
               {" "}
               Future
               <img
-                src="/tooltip.png"
+                src="/tooltip.jpg"
                 width="20"
                 height="20"
                 style={{ margin: "1px", cursor: "pointer" }}

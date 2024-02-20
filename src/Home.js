@@ -90,49 +90,49 @@ export const Home = () => {
             }}
           >
             <img
-              src="/react.png"
+              src="/react.jpg"
               width="40"
               height="40"
               style={{ margin: "30px", cursor: "pointer" }}
             ></img>
             <img
-              src="/javascript.png"
+              src="/javascript.jpg"
               width="40"
               height="40"
               style={{ margin: "30px", cursor: "pointer" }}
             ></img>
             <img
-              src="/typescript.png"
+              src="/typescript.jpg"
               width="40"
               height="40"
               style={{ margin: "30px", cursor: "pointer" }}
             ></img>
             <img
-              src="/bootstrap.png"
+              src="/bootstrap.jpg"
               width="40"
               height="40"
               style={{ margin: "30px", cursor: "pointer" }}
             ></img>
             <img
-              src="/css_icon.png"
+              src="/css_icon.jpg"
               width="40"
               height="40"
               style={{ margin: "30px", cursor: "pointer" }}
             ></img>
             <img
-              src="/html_icon.png"
+              src="/html_icon.jpg"
               width="40"
               height="40"
               style={{ margin: "30px", cursor: "pointer" }}
             ></img>
             <img
-              src="/sourcetree.png"
+              src="/sourcetree.jpg"
               width="40"
               height="40"
               style={{ margin: "30px", cursor: "pointer" }}
             ></img>
             <img
-              src="/visual_studio.png"
+              src="/visual_studio.jpg"
               width="40"
               height="40"
               style={{ margin: "30px", cursor: "pointer" }}
