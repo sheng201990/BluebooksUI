@@ -75,7 +75,7 @@ export const GPT = () => {
                     setIsLoading(true);
                     var content = document.getElementById("text").value;
                     const openai = new OpenAI({
-                      apiKey: process.env.REACT_APP_API_KEY,
+                      apiKey: localStorage.getItem("api_key"),
                       dangerouslyAllowBrowser: true,
                       // apiKey: process.env.API_KEY, // This is the default and can be omitted
                     });
