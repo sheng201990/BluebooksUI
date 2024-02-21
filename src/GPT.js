@@ -24,7 +24,12 @@ export const GPT = () => {
           <Card.Body>
             <Card.Body>
               <div style={{ marginTop: "10px", fontWeight: "bolder" }}>
-                Answers:
+                <span>Answers:</span>
+                <span>
+                  * Please put your chat gpt secret key into your local storage
+                  (key name:api_key, value:your secret key)to start using the
+                  ChatBot
+                </span>
               </div>
               <div style={{ marginTop: "10px", minHeight: "400px" }}>
                 {contentArray.map((val, key) => {
