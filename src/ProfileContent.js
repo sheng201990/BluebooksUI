@@ -17,7 +17,7 @@ export const ProfileContent = () => {
         textAlign: "left",
       }}
     >
-      <div style={{ marginTop: "20px" }}>
+      <div style={{ marginTop: "20px", padding: "10px" }}>
         <div
           style={{
             fontSize: "40px",
@@ -41,13 +41,14 @@ export const ProfileContent = () => {
           fontSize: "14px",
           marginTop: "40px",
           fontFamily: "unset",
+          padding: "10px",
         }}
       >
         Reliable, energetic, and resourceful front-end developer with more than
         three years of experience resolving complex client problems with coding
         solutions.
       </div>
-      <div style={{ marginTop: "40px", marginBottom: "20px" }}>
+      <div style={{ marginTop: "40px", marginBottom: "20px", padding: "10px" }}>
         <Button
           className="bg-primary"
           style={{
@@ -62,7 +63,7 @@ export const ProfileContent = () => {
           About Me
         </Button>
 
-        <div style={{ marginTop: "10px" }}>
+        <div style={{ marginTop: "10px", padding: "10px" }}>
           <img
             src="/facebook.jpg"
             width="20"
