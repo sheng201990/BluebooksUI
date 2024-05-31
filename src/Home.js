@@ -50,12 +50,6 @@ export const Home = () => {
               <Nav.Link href="/">
                 <div className={style.text}>Home</div>
               </Nav.Link>
-              <Nav.Link href="/">
-                <div className={style.text}>Portfolio</div>
-              </Nav.Link>
-              <Nav.Link href="/hobby">
-                <div className={style.text}>Hobby</div>
-              </Nav.Link>
               <Nav.Link href="/contact">
                 <div className={style.text}>Contact</div>
               </Nav.Link>
