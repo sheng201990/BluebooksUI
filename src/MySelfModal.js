@@ -23,7 +23,7 @@ export const MySelfModal = ({ modalShow, onClose }: modalProps) => {
         </Modal.Header>
         <Modal.Body>
           <div style={{ textAlign: "left", padding: "10px", fontSize: "20px" }}>
-            Creative Front-End Developer offering 3+ years of experience
+            Creative Front-End Developer offering 4+ years of experience
             providing high-impact web solutions for diverse industry
             organizations. Skilled in designing, developing and testing multiple
             web-based applications incorporating a range of technologies.

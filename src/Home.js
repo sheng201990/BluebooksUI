@@ -31,7 +31,7 @@ export const Home = () => {
                 fontSize: "15px",
               }}
             >
-              rainbow.ept@gmail.com
+              shengyi.luan2020@gmail.com
             </div>
           </Navbar.Brand>
           <Navbar.Toggle
