@@ -98,7 +98,7 @@ export const ProfileContent = () => {
             style={{ marginLeft: "10px", cursor: "pointer" }}
             onClick={() => {
               window.open(
-                "https://rc.library.uta.edu/uta-ir/handle/10106/29631?show=full"
+                "https://mavmatrix.uta.edu/electricaleng_theses/365/"
               );
             }}
           ></img>

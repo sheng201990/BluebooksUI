@@ -23,12 +23,13 @@ export const MySelfModal = ({ modalShow, onClose }: modalProps) => {
         </Modal.Header>
         <Modal.Body>
           <div style={{ textAlign: "left", padding: "10px", fontSize: "20px" }}>
-            Creative Front-End Developer offering 4+ years of experience
-            providing high-impact web solutions for diverse industry
-            organizations. Skilled in designing, developing and testing multiple
-            web-based applications incorporating a range of technologies.
-            Aspiring to combine broad background with strong technical skills to
-            excel as a Front-End Developer.
+            Results-driven Front-End Developer with 5+ years of experience
+            building scalable, user-centric applications. Proficient in React,
+            TypeScript, Node.js, and testing frameworks. Such as Cypress and
+            Playwright. Skilled in API integration, e-commerce workflows, CI/CD
+            pipelines, and team leadership. Passionate about creating seamless
+            user experiences and improving web performance through clean,
+            maintainable code.
           </div>
         </Modal.Body>
       </Modal>

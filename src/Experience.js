@@ -8,7 +8,6 @@ export const Experience = () => {
         <li className={style.link}>
           <a>
             <div className={style.tooltip}>
-              {" "}
               2021
               <img
                 src="/tooltip.jpg"
@@ -16,9 +15,13 @@ export const Experience = () => {
                 height="20"
                 style={{ margin: "1px", cursor: "pointer" }}
               ></img>
-              <span className={style.tooltiptext} style={{ fontSize: "14px" }}>
-                Started my front end develop job as a newbie. We started our
-                project with a team of four.
+              <span
+                className={style.tooltiptext}
+                style={{ fontSize: "14px", padding: "5px" }}
+              >
+                Maintained and modernized the customer checkout UI by aligning
+                with Figma designs, creating reusable Storybook/Bootstrap
+                components, and improving responsive, cross-device performance.
               </span>
             </div>
           </a>
@@ -26,7 +29,6 @@ export const Experience = () => {
         <li className={style.link}>
           <a>
             <div className={style.tooltip}>
-              {" "}
               2022
               <img
                 src="/tooltip.jpg"
@@ -34,9 +36,13 @@ export const Experience = () => {
                 height="20"
                 style={{ margin: "1px", cursor: "pointer" }}
               ></img>
-              <span className={style.tooltiptext} style={{ fontSize: "14px" }}>
-                Started with my subscription project since a year, learn how to
-                use bootstrap, react, recoil, useForm, html and scss etc.
+              <span
+                className={style.tooltiptext}
+                style={{ fontSize: "14px", padding: "5px" }}
+              >
+                Developed and enhanced a large-scale CRM platform with
+                integrated payment systems (Stripe, Braintree, PayPal), improved
+                address validation through Melissa and USPS APIs.
               </span>
             </div>
           </a>
@@ -44,7 +50,6 @@ export const Experience = () => {
         <li className={style.link}>
           <a>
             <div className={style.tooltip}>
-              {" "}
               2023
               <img
                 src="/tooltip.jpg"
@@ -52,10 +57,13 @@ export const Experience = () => {
                 height="20"
                 style={{ margin: "1px", cursor: "pointer" }}
               ></img>
-              <span className={style.tooltiptext} style={{ fontSize: "14px" }}>
-                Designed different kind of payment methods like credit card,
-                sepa debit, paypal express to support other countries like
-                United States, United Kingdom, German, Japan, Australia.
+              <span
+                className={style.tooltiptext}
+                style={{ fontSize: "14px", padding: "5px" }}
+              >
+                Refactored Node APIs to reduce server load by 30%. Additionally,
+                built unit and E2E test automation with Cypress and Playwright,
+                improving deployment stability by 20%.
               </span>
             </div>
           </a>
@@ -63,7 +71,6 @@ export const Experience = () => {
         <li className={style.link}>
           <a>
             <div className={style.tooltip}>
-              {" "}
               2024
               <img
                 src="/tooltip.jpg"
@@ -71,9 +78,14 @@ export const Experience = () => {
                 height="20"
                 style={{ margin: "1px", cursor: "pointer" }}
               ></img>
-              <span className={style.tooltiptext} style={{ fontSize: "14px" }}>
-                Finished Designed subscription system and it implemented on the
-                market and brought company income to the hightest in this year.
+              <span
+                className={style.tooltiptext}
+                style={{ fontSize: "14px", padding: "5px" }}
+              >
+                Designed and implemented a dynamic web access control system
+                that conditionally displays a login iframe or block window,
+                while maintaining and optimizing the system for long-term
+                performance.
               </span>
             </div>
           </a>
@@ -82,15 +94,20 @@ export const Experience = () => {
           <a>
             <div className={style.tooltip}>
               {" "}
-              Future
+              2025
               <img
                 src="/tooltip.jpg"
                 width="20"
                 height="20"
                 style={{ margin: "1px", cursor: "pointer" }}
               ></img>
-              <span className={style.tooltiptext} style={{ fontSize: "14px" }}>
-                implemented new features to the project.
+              <span
+                className={style.tooltiptext}
+                style={{ fontSize: "14px", padding: "5px" }}
+              >
+                Kept dependencies up to date to reduce tech debt and set up
+                GitLab CI/CD pipelines to enforce code quality and security
+                before production.
               </span>
             </div>
           </a>
